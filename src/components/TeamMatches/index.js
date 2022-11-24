@@ -61,22 +61,24 @@ class TeamMatches extends Component {
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
-          <div className={`team-matches-container ${bgColor}`}>
-            <img
-              src={teamBannerUrl}
-              alt="team banner"
-              className="banner-image"
-            />
-            <h1 className="latest-matches-heading">Latest Matches</h1>
-            <LatestMatch
-              latestMatchDetails={latestMatchDetails}
-              key={latestMatchDetails.competingTeam}
-            />
-            <ul className="match-cards-lists-container">
-              {recentMatches.map(eachMatch => (
-                <MatchCard matchDetails={eachMatch} key={eachMatch.id} />
-              ))}
-            </ul>
+          <div className={`bg ${bgColor}`}>
+            <div className="team-matches-container">
+              <img
+                src={teamBannerUrl}
+                alt="team banner"
+                className="banner-image"
+              />
+              <h1 className="latest-matches-heading">Latest Matches</h1>
+              <LatestMatch
+                latestMatchDetails={latestMatchDetails}
+                key={latestMatchDetails.competingTeam}
+              />
+              <ul className="match-cards-lists-container">
+                {recentMatches.map(eachMatch => (
+                  <MatchCard matchDetails={eachMatch} key={eachMatch.id} />
+                ))}
+              </ul>
+            </div>
           </div>
         )}
       </>

@@ -13,6 +13,7 @@
   padding-right: 16px;
   width: 48%;
   margin-bottom: 25px;
+  height: 250px;
 }
 .match-card-logo {
   width: 60px;
@@ -42,13 +43,14 @@
     width: 30%;
     padding: 25px;
     margin-bottom: 50px;
+    height: 500px;
   }
   .competing-team {
-    font-size: 24px;      
+    font-size: 24px;
   }
   .match-card-logo {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
   }
   .para {
     font-size: 16px;

@@ -15,6 +15,7 @@
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 20px;
+  width: 100%;
 }
 .latest-match-sub-container {
   display: flex;
@@ -42,12 +43,12 @@
   }
   .latest-match-logo-large {
     display: flex;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     justify-content: center;
     align-self: center;
     margin-left: 0px;
-    margin-right: 80px;
+    margin-right: 20px;
   }
   .latest-match-container {
     display: flex;
