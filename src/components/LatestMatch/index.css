@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.latest-match-names {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #fff;
+}
+
+.latest-match-heading {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #fff;
+}
+.latest-match-container {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.latest-match-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-match-logo {
+  width: 60px;
+  height: 60px;
+}
+.hr-line {
+  width: 100%;
+}
+/* .sub-headings-container {
+  width: 60%;
+} */
+.latest-match-logo-large {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hr-line {
+    display: none;
+  }
+  .latest-match-logo-large {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-self: center;
+    margin-left: 0px;
+    margin-right: 80px;
+  }
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
+  /* .sub-heading-container {
+    width: 30%;
+    padding-right: 0px;
+  } */
+  .latest-match-logo {
+    display: none;
+  }
+  .latest-match-names {
+    font-size: 18px;
+  }
+  .latest-match-heading {
+    font-size: 24px;
+  }
+  .text-right {
+    text-align: right;
+  }
+}

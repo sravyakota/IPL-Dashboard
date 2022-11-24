@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.match-card-container {
+  background-color: #1e293b;
+  color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 12px;
+  padding-left: 14px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  width: 48%;
+  margin-bottom: 25px;
+}
+.match-card-logo {
+  width: 60px;
+  height: 40px;
+}
+
+.competing-team {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  flex-grow: 1;
+}
+.para {
+  font-size: 12px;
+  font-family: 'Bree serif';
+}
+.green {
+  color: #18ed66;
+}
+.red {
+  color: #e31a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-container {
+    width: 30%;
+    padding: 25px;
+    margin-bottom: 50px;
+  }
+  .competing-team {
+    font-size: 24px;      
+  }
+  .match-card-logo {
+    width: 150px;
+    height: 150px;
+  }
+  .para {
+    font-size: 16px;
+    font-family: 'Bree serif';
+  }
+}
